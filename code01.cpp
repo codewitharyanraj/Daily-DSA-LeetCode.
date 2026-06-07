@@ -8,7 +8,7 @@
 // ans also its is like a container jisme cout and cin defined hai....and there are many other things also defined in it...and there are many other containers also like std ::math , std::string etc... all these containers are defined in the iostream file....
 
 // after some cout , we can use \n:-
-// cout << "hello world";
+// cout << "hello world" << "\n";
 // cout << \"n"; //to go in next line 
 
 // semi-colon; is to end line....so we have to end the line 
@@ -16,9 +16,22 @@
 // char a = 'v'; // char data type stores only single character and it is enclosed in single quotes
 // this above line means we have created a container of char datatype and assigned it value v until we have not wrote int a=123;
 
-
-#include <iostream>
+#include<bits/stdc++.h>   //- this include all the library in c++, it takes a lil long time but its okay
 using namespace std;
+// int < long < long long 
+// float, double,
+// a string take/picks only the character before some space ;
+
+// inorder to get the whole line instead of 1 word in the variable; we use :-
+// int main() {
+//     string s;
+//     getline(cin, s);
+//     cout << s;
+//     // for single character we use char cuz it takes less space as compare to string
+//     // for string we use "  ", but for char we use = ' '
+// } 
+
+
 // int main() {
     // cout << "hello world";
 
@@ -1733,8 +1746,8 @@ using namespace std;
 // 123
 // 456
 // 789
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 // int main(){
 //     int r;
 //     cout<<"Enter rows: ";
@@ -2761,82 +2774,6 @@ using namespace std;
 //         }
 //     }
 
-
-
-
-
-
-
-
-
-
-
-// 1 2 3 4 3 2 1
-// 1 2 3   3 2 1
-// 1 2       2 1
-// 1           1
-
-//     1
-//    1 1
-//   1 2 1
-//  1 3 3 1
-
-// SOLVE THIS :-
-// ****
-// * *
-// * *
-// ****
-
-// *****
-// *   *
-// *   *
-// *****
-
-// 1
-// 1 1
-// 1 2 1
-// 1 3 3 1
-// 1 4 6 4 1
-
-// 1
-// 0 1
-// 1 0 1
-// 0 1 0 1
-
-// 1      1
-// 12    21
-// 123  321
-// 12344321
-
-// 4 4 4 4 4 4 4
-// 4 3 3 3 3 3 4
-// 4 3 2 2 2 3 4
-// 4 3 2 1 2 3 4
-// 4 3 2 2 2 3 4
-// 4 3 3 3 3 3 4
-// 4 4 4 4 4 4 4
-
-
-// *        *
-// **      **
-// ***    ***
-// ****  ****
-// **********
-// **********
-// ****  ****
-// ***    ***
-// **      **
-// *        *
-
-
-
-
-
-
-
-
-
-
 // SOLVE THIS:- do it in last...
 // 1234554321
 // 1234**4321
@@ -3066,8 +3003,8 @@ using namespace std;
 //         obj.diamond(n);
 //     }}
 
-class practices {
-    public:
+// class practices {
+//     public:
     // void star1 (int n) {
         // // int n= 9;
         // for (int i=1; i<=n; i++) {
@@ -3340,9 +3277,63 @@ class practices {
 //     }
 //     cout << endl;   }}
 
+// SOLVE THIS PATTERN :- TOOK 3 HR OF EFFECTIVE FOCUS; REVISION REQUIRE 3-5 TIMES ATLEAST
+// 4444444
+// 4333334
+// 4322234
+// 4321234
+// 4322234
+// 4333334
+// // 4444444
 // void star22(int n) {
+//     // cin >> n=7;
+//     int main=(n/2+1); //4
+//     int m=main;
+//     int left = (n/2+1); //4
+//     int r, lv, lv1;
+//     int right = (n/2+1); //4
+//     for (int i =0; i<n; i++) {
+//  if (i<=n/2) {
+// // left
+//             int left = (n/2+1); //4
+//     for(int j=1; j<=i; j++) {
+//             cout << left;
+//             lv = left; //last value of left
+//             left--;}
+// // main
+//     for (int j=1; j<=(n-2*(i)); j++) {   //or for (int j=1; j<=2*(n/2-i)+1 ; j++) {
+//             cout << main;
+//         } 
+// // right
+//         // int right = (n/2+1); //4
+//         // right= right-i+1; ///instead of all this used lastvalue of left;
+//     for (int j=1; j<=i; j++) {
+//             cout <<lv;
+//             lv++;
+//         }
+//         main--; }
 
-// };
+// else{
+// // left
+//         int m=(n/2+1);
+//     for (int j=1; j<=(n-1-i); j++) {
+//         cout << m;
+//         lv1=m;
+//         m--;
+//     }
+// // main
+//     for (int j=1; j<=abs(2*(n/2-i)-1) ; j++) {
+//                 // or 
+//     // for(int j=1; j<=(i-(n-1-i)+1); j++) {
+//         cout << (n/2-(n-1-i)+1);
+//     }
+// // right
+//     // int r=((n/2+1)-(n-1-i)+1);
+//     for(int j=1; j<=(n-1-i); j++){
+//         cout <<lv1;
+//         lv1++;            }}
+//             cout<< endl;     }
+// }};
 // int main() {
 //     int t;
 //     cin>>t;
@@ -3352,8 +3343,159 @@ class practices {
 //         // practices::star(n);
 //         practices obj;
 //         obj.star22(n);
+//     }}
+
+
+
+
+
+
+
+
+
+// when to use an array:- when similar datatupe is used multiple times
+// int main() {
+    // 1D- ARRAYS:-
+    // int arr[5];
+    // in arrays, we have 0 based indexing;
+    // cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+    // OR:-
+//     for (int i=0;i<5;i++) {
+//         cout << " write the value of arrays at index:  " << i << " ";
+//         cin >> arr[i];
 //     }
+//     cout << " values in arr[5] were:- ";
+//    for (int i=0;i<5;i++) {
+//         cout << arr[i] << " ";
+//     }}
+    // cout << "3th index array :-" << arr[3]; // will print the value inside array of 3 th index;
+    // cout << arr[99];  //this was not the defined size of the array so it will give any random output
+    //all the data inside the array should be of same data-type 
+    // any index can be stored in any random address it is not defined exact memory address....but the second(1) index will be stored right after the 1st(0) index(consecutive) 
+
+    // 2D ARRAYS:-
+    // int arr[3] [5];
+    // cin >> arr[1] [4];
+    // all index value can be changes just like an integer datatype; 
+    // cout << "value at row 1 and column 4 =" << arr[1] [4];
+
+    // STRINGS:- 
+    // string s = "Striver";
+    // cout << s[2]; // output = r;
+    // 0 based indexing is used, here  also...
+    // int len = s.size(); // to find the size of the s string..
+    // cout << s[len-1];  //output = r; // to know the last index 
+    // all index value can be changes just like an integer datatype; 
+    // s[3] = 'k';
+    // cout << s[3]; //output k 
+    // cout << s[7];// nothing will get printed; cuz the last index is 6 not 7, length is 7;
+
+    // FUNCTIONS:- 
+    // TO USE SAME SET OF CODE MULTIPLE TIMES;
+    // A SET OF CODE WHICH PERFORMS SOMETHING FO YOU;
+    // USED TO MODULARISE CODE;
+    // TO INCREASE READIABILITY;
+
+    // EX:-
+    // void - does not return anything;
+    // return
+    // PARAMETERISED - (int n)
+    // NON-PARAMETERISED - () 
 // }
+// EX:-
+    // void printName(string name) {
+    //     cout << "Your name is :- " << name;
+    // }
+    // int main() {
+    //     string name;
+    //     cin >> name;
+    //     printName(name); //Your name is :- aryan
+
+    //     string name2;
+    //     cin>> name2;
+    //     printName(name2);  // out = Your name is :- shruti
+    // }
+// EX :-
+    // void printAge() {
+    //     cout << "everyone should be above 18";
+    // }
+    //  int main() {
+    //     printAge(); //output = everyone should be above 18
+    //  }
+
+    // inside parameter we can take multiple data(int mun1, int num2 , char ch)
+
+// EX:-
+// int sum(int num1, int num2) {
+    // int num3 = num1 + num2;
+    // return num3;  // will return value of num3 in function sum();
+    // instead of return num3, we can write :-
+    // cout << num3; // but we will not store it in int result;
+// }
+// int main() {
+    // int num1, num2;
+    // cin >> num1 >> num2;
+    // int result = sum(num1, num2); // here, sum function will be called and it will return the value of num3;
+    // here the program will be stopped and will go to the sum() function and process that and will return something;
+    // cout << result; // if we return num3;
+    // else just write :-
+    // sum(int num1, int num2);     }
+
+    // PASS BY VALUE:- copies the original value, and dosomething with it but gives the manipulated value and original value  
+    // void doSomething(int num) {
+    //     cout << num << endl;
+    //     num += 5;
+    //     cout << num << endl;
+    //     num += 5;
+    //     cout << num << endl;
+    // }
+    // int main() {
+    //     int num = 10;
+    //     doSomething(num);
+
+    //     cout << num << endl; //output - 10 15 20 10 vertically
+    // }
+    // PASS BY refrence:- just & in function(parameter), it will manipulate with the original data 
+    // void doSomething(int &num) {
+    //     cout << num << endl;
+    //     num += 5;
+    //     cout << num << endl;
+    //     num += 5;
+    //     cout << num << endl;
+    // }
+    // int main() {
+    //     int num = 10;
+    //     doSomething(num);
+
+    //     cout << num << endl; //output - 10 15 20 20 vertically
+    // }
+    // we can do this with string also 
+
+    // array is always/by default passed by refrence;
+    // EX:-
+    //   void doSomething(int arr[], int n) {
+    //     arr[1] += 100; //add 100 inside arr of index 1 like if it has 17 it will become 117;
+    //     cout << "Value inside functions: " << arr[1] << endl;
+    // }
+    // int main() {
+    //     int n = 5;
+    //     int arr[n];
+    //     for (int i =0; i<n; i++) {
+    //         cin >> arr[i];
+    //     }
+    //     doSomething(arr, n);
+
+    //     cout << "value inside int main:" << arr[1] << endl;
+    //     doSomething(arr, n);        }
+        // output :-  111 222 333 444 555
+// Value inside functions: 322
+// value inside int main:322
+    
+
+    
+
+
+
 
 
 
