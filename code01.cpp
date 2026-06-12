@@ -3495,8 +3495,8 @@ using namespace std;
 
 // start of array:-
 // SOLVE THIS:-
-// Q1:-
-// Q2:-
+// Q1:- do this
+// Q2:- do this 
 // Q3:-
     
 
