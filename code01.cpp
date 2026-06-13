@@ -3348,11 +3348,6 @@ using namespace std;
 
 
 
-
-
-
-
-
 // when to use an array:- when similar datatupe is used multiple times
 // int main() {
     // 1D- ARRAYS:-
