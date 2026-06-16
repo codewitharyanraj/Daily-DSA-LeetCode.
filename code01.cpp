@@ -3277,14 +3277,14 @@ using namespace std;
 //     }
 //     cout << endl;   }}
 
-// SOLVE THIS PATTERN :- TOOK 3 HR OF EFFECTIVE FOCUS; REVISION REQUIRE 3-5 TIMES ATLEAST.
+// SOLVE THIS PATTERN :- TOOK 3 HR OF EFFECTIVE FOCUS; REVISION REQUIRE 3-5 TIMES ATLEAST
 // 4444444
 // 4333334
 // 4322234
 // 4321234
 // 4322234
 // 4333334
-// // 4444444
+// / 4444444
 // void star22(int n) {
 //     // cin >> n=7;
 //     int main=(n/2+1); //4
