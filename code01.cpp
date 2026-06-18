@@ -3275,7 +3275,7 @@ using namespace std;
 //         cout << "*"; }
 //         else {cout << " ";   }
 //     }
-//     cout << endl;   }}
+//     cout << endl;}}
 
 // SOLVE THIS PATTERN :- TOOK 3 HR OF EFFECTIVE FOCUS; REVISION REQUIRE 3-5 TIMES ATLEAST
 // 4444444
