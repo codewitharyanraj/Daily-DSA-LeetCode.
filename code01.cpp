@@ -3181,7 +3181,7 @@ using namespace std;
 //         for (int j=0;j<=i;j++){
 //             cout<< ch;
 //             ch++;
-//         }                   cout << endl;}}};
+//         }                cout << endl;}}};
 
 // SOLVE THIS PATTERN:-
 // **********
