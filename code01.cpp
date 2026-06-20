@@ -3264,8 +3264,7 @@ using namespace std;
 //             cout << "*"; }
 //             else{   cout << "-";}
 //         }
-//         cout << endl;
-//     }}
+//         cout << endl;        }}
 // };
 // SIR method same but short:-
 // for(int i=0;i<n;i++) {
