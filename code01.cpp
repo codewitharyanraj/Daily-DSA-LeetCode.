@@ -3233,7 +3233,7 @@ using namespace std;
 //         if (i>n/2) {
 //             for(int j=0; j<n-i; j++){
 //                 cout << "*";}
-//             }else{
+//             }     else{
 //             for (int j=0; j<i+1; j++) {
 //                 cout << "*";
 //                  }}}
