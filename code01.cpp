@@ -3236,7 +3236,7 @@ using namespace std;
 //             }else{
 //             for (int j=0; j<i+1; j++) {
 //                 cout << "*";
-//             }}}
+//                  }}}
 //space;
 //         for (int j=0; j<abs(n-(2*i+1)); j++) {
 //             cout << "-";}
