@@ -903,8 +903,7 @@ using namespace std;
 //         if ( n%i == 0) {  // if the no. is non-prime
 //             isPrime = false;
 //             break;
-//         }
-//     }
+//         }}
 //     if(isPrime == true) {
 //         cout << "prime no.\n" ;
 //     }else {
