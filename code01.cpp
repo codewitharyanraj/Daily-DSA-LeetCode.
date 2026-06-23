@@ -909,7 +909,7 @@ using namespace std;
 //     }else {
 //         cout << "non-prime no.\n";
 //     }
-//     return 0;}
+//}
 // another way:- can it be done using for loop??
 // solved using for loop: pause
 // int main() {
