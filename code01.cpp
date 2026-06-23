@@ -908,8 +908,7 @@ using namespace std;
 //         cout << "prime no.\n" ;
 //     }else {
 //         cout << "non-prime no.\n";
-//     }
-//}
+//     }}
 // another way:- can it be done using for loop??
 // solved using for loop: pause
 // int main() {
