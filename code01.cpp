@@ -915,9 +915,7 @@ using namespace std;
 //     int n;
 //     cout << "enter a number: " ;
 //     cin>>n;
-
-//     for (int i = 1; i<=n; i++) {  
-
+//     for (int i = 1; i<=n; i++) {
 //         //in this code the cout will continusly repeat cuz its for loop
 //         //do something that it will give output only once.
 //         //understand how the compiler works in this code or what goes behind this code.
