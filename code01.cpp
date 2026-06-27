@@ -890,8 +890,6 @@ using namespace std;
 // 0 and 1 are not prime 
 // why 1 is not prime - because it has only 1 factor which is  itself not other factor like 7 has 1 and 7, 13 has 1 and 13.
 
-
-
 // so to find whether a no. is prime or not....all the above solution was a lengthy solution:-
 // shorter solution could be to take i between (2 to root n):
 
