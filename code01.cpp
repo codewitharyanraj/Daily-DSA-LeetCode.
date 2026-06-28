@@ -773,16 +773,11 @@ using namespace std;
 //             i++;
 //         }else {
 //                 break;
-//             }
-//         }
-//     }
-
-
+//             }}}
 // in while loop, if the first condition is false the whole loop will not work like :
 // while (3>5) {  //this is the condition
 //     cout << "hello";
 // } 
-
 
 // do while loops:-
 
@@ -798,7 +793,6 @@ using namespace std;
 //         cout << "hello";
 //     }while (3>5); /// out = hello
 // }
-
 
 // Q.)print numbers from 1 to n using do-while loop.
 
