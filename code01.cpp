@@ -664,13 +664,10 @@ using namespace std;
 //     for(int i=1; i<=n; i++) {
 //         // if we want multiple variable:  for(int i=1, j=3; i<=n; i++) {
 //         // if we want multiple statements: for(int i=1, j=3; i<=n && j<=n; i++) {
-//         cout << i << " "; //or endl; 
-//     } return 0;
-// }
-
+//         cout << i << " "; // or endl; 
+//     }}
 // initialisation occurs only once
 // condition -> work/cout -> updation
-
 // Q.1) sum of numbers from 1 to n:
 
 // int main() {
