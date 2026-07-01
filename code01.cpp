@@ -590,14 +590,8 @@ using namespace std;
 
 // int main() {
 //     int n = -45;
-    
 //     cout << (n>=0 ? "no is +ve" : "no. is -ve") << endl; //by the way we have used () in cout line.
-
-//     return 0;
 // }
-
-
-
 
 // LOOPS:-
 // 3 types of loops :- for, while, do while.
